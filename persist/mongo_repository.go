@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/vtrifonov/http-api-mock/logging"
-	"github.com/vtrifonov/http-api-mock/utils"
+	"github.com/arrim/http-api-mock/logging"
+	"github.com/arrim/http-api-mock/utils"
 	"github.com/tidwall/sjson"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

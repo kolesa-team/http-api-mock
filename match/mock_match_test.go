@@ -3,7 +3,7 @@ package match
 import (
 	"testing"
 
-	"github.com/vtrifonov/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/definition"
 )
 
 func TestMatchMethod(t *testing.T) {

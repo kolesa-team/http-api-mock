@@ -2,9 +2,9 @@ package persist
 
 import (
 	"github.com/Jeffail/gabs"
-	"github.com/vtrifonov/http-api-mock/definition"
-	"github.com/vtrifonov/http-api-mock/logging"
-	"github.com/vtrifonov/http-api-mock/utils"
+	"github.com/arrim/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/logging"
+	"github.com/arrim/http-api-mock/utils"
 )
 
 //FilePersister persists body in file

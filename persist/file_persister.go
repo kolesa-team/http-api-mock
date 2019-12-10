@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/arrim/http-api-mock/logging"
+	"github.com/arrim/http-api-mock/utils"
 	"github.com/ryanuber/go-glob"
-	"github.com/vtrifonov/http-api-mock/logging"
-	"github.com/vtrifonov/http-api-mock/utils"
 )
 
 //FilePersister persists body in file

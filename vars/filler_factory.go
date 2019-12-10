@@ -1,10 +1,10 @@
 package vars
 
 import (
-	"github.com/vtrifonov/http-api-mock/definition"
-	"github.com/vtrifonov/http-api-mock/persist"
-	"github.com/vtrifonov/http-api-mock/utils"
-	"github.com/vtrifonov/http-api-mock/vars/fakedata"
+	"github.com/arrim/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/persist"
+	"github.com/arrim/http-api-mock/utils"
+	"github.com/arrim/http-api-mock/vars/fakedata"
 )
 
 type FillerFactory interface {

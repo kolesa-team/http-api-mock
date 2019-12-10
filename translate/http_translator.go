@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/vtrifonov/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/definition"
 )
 
 //HTTPTranslator is and adaptor beteewn the http and mock definition.

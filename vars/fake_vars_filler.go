@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/vtrifonov/http-api-mock/definition"
-	"github.com/vtrifonov/http-api-mock/logging"
-	"github.com/vtrifonov/http-api-mock/vars/fakedata"
+	"github.com/arrim/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/logging"
+	"github.com/arrim/http-api-mock/vars/fakedata"
 )
 
 var errMissingParameterValue = errors.New("The requested method needs input parameters which are not supplied!")

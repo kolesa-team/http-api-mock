@@ -7,7 +7,7 @@ import (
 
 	"strings"
 
-	"github.com/vtrifonov/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/definition"
 )
 
 //JoinContent returns two contents joined as JSON if both are JSONs otherwise concatenates them

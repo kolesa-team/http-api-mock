@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/vtrifonov/http-api-mock/definition"
-	"github.com/vtrifonov/http-api-mock/logging"
-	"github.com/vtrifonov/http-api-mock/persist"
-	"github.com/vtrifonov/http-api-mock/utils"
+	"github.com/arrim/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/logging"
+	"github.com/arrim/http-api-mock/persist"
+	"github.com/arrim/http-api-mock/utils"
 )
 
 type StorageVarsFiller struct {

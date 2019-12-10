@@ -3,9 +3,9 @@ package amqp
 import (
 	"time"
 
+	"github.com/arrim/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/logging"
 	"github.com/streadway/amqp"
-	"github.com/vtrifonov/http-api-mock/definition"
-	"github.com/vtrifonov/http-api-mock/logging"
 )
 
 //MessageSender sends message
@@ -46,8 +46,8 @@ func sendMessage(m *definition.Mock) bool {
 	err = ch.Publish(
 		m.Notify.Amqp.Exchange,   // exchange
 		m.Notify.Amqp.RoutingKey, // routing key
-		false, // mandatory
-		false, // immediate
+		false,                    // mandatory
+		false,                    // immediate
 		amqp.Publishing{
 			Body:            []byte(m.Notify.Amqp.Body),
 			ContentType:     m.Notify.Amqp.ContentType,

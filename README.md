@@ -1,6 +1,6 @@
 HTTP API Mock
 =========
-[![Build Status](https://travis-ci.org/vtrifonov/http-api-mock.svg?branch=master)](https://travis-ci.org/vtrifonov/http-api-mock)
+[![Build Status](https://travis-ci.org/arrim/http-api-mock.svg?branch=master)](https://travis-ci.org/arrim/http-api-mock)
 
 HTTP API Mock is a fork of [MMock](https://github.com/jmartin82/mmock)
 
@@ -81,7 +81,7 @@ You can see more complex examples [here](/config).
 To run HTTP API Mock locally from the command line.
 
 ```
-go get github.com/vtrifonov/http-api-mock
+go get github.com/arrim/http-api-mock
 http-api-mock -h
 
 ```
@@ -370,7 +370,7 @@ That configurations are going to work either with [File system](#file-system) or
 
 ### Contributing
 
-Clone this repository to ```$GOPATH/src/github.com/vtrifonov/http-api-mock``` and type ```go get .```.
+Clone this repository to ```$GOPATH/src/github.com/arrim/http-api-mock``` and type ```go get .```.
 
 Requires Go 1.4+ to build.
 

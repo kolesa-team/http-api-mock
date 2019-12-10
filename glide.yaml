@@ -1,4 +1,4 @@
-package: github.com/vtrifonov/http-api-mock
+package: github.com/arrim/http-api-mock
 import:
 - package: github.com/Jeffail/gabs
   version: ^1.0.0

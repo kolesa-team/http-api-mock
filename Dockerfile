@@ -1,6 +1,6 @@
 FROM golang:1.7
 
-RUN go get github.com/vtrifonov/http-api-mock
+RUN go get github.com/arrim/http-api-mock
 
 RUN mkdir /config
 VOLUME /config

@@ -9,13 +9,13 @@ import (
 
 	"reflect"
 
-	"github.com/vtrifonov/http-api-mock/definition"
-	"github.com/vtrifonov/http-api-mock/logging"
-	"github.com/vtrifonov/http-api-mock/notify"
-	"github.com/vtrifonov/http-api-mock/proxy"
-	"github.com/vtrifonov/http-api-mock/route"
-	"github.com/vtrifonov/http-api-mock/translate"
-	"github.com/vtrifonov/http-api-mock/vars"
+	"github.com/arrim/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/logging"
+	"github.com/arrim/http-api-mock/notify"
+	"github.com/arrim/http-api-mock/proxy"
+	"github.com/arrim/http-api-mock/route"
+	"github.com/arrim/http-api-mock/translate"
+	"github.com/arrim/http-api-mock/vars"
 )
 
 //Dispatcher is the mock http server

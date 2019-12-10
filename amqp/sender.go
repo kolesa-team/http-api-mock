@@ -1,6 +1,6 @@
 package amqp
 
-import "github.com/vtrifonov/http-api-mock/definition"
+import "github.com/arrim/http-api-mock/definition"
 
 //Sender sends messages to AMQP server
 type Sender interface {

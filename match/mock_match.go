@@ -4,9 +4,9 @@ import (
 	"errors"
 	"strings"
 
+	"github.com/arrim/http-api-mock/definition"
 	urlmatcher "github.com/azer/url-router"
 	"github.com/ryanuber/go-glob"
-	"github.com/vtrifonov/http-api-mock/definition"
 )
 
 var (

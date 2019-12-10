@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/vtrifonov/http-api-mock/definition"
-	"github.com/vtrifonov/http-api-mock/persist"
-	"github.com/vtrifonov/http-api-mock/vars/fakedata"
+	"github.com/arrim/http-api-mock/definition"
+	"github.com/arrim/http-api-mock/persist"
+	"github.com/arrim/http-api-mock/vars/fakedata"
 )
 
 func getStorageProcessor(persistPath string) VarsProcessor {
