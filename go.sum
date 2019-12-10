@@ -1,7 +1,5 @@
 github.com/Jeffail/gabs v1.0.0 h1:yGg0yih4Q4ZSbiixE3C7a2wCXbc8scritLhs19duATw=
 github.com/Jeffail/gabs v1.0.0/go.mod h1:6xMvQMK4k33lb7GUUpaAPh6nKMmemQeg5d4gn7/bOXc=
-github.com/arrim/http-api-mock v1.0.1 h1:F6tgIbCryLRBRnT9VyH0VtQWZFmkVQD9BuENNF4XBjE=
-github.com/arrim/http-api-mock v1.0.1/go.mod h1:eEc8+t5TJE7Y43kJT9wQInQdyyMkRRu5S0+Wh4VprHk=
 github.com/azer/url-router v0.0.0-20140924232216-1a0aa252538c h1:vpYPra7G75NhuxN28VqQhTepM8a6c201AsJWdRaINqY=
 github.com/azer/url-router v0.0.0-20140924232216-1a0aa252538c/go.mod h1:YT0FE3RD8ecPJBNkCdpeEAdZXPZgD2CqcRtpwuzjt9M=
 github.com/elazarl/go-bindata-assetfs v0.0.0-20160822204401-9a6736ed45b4 h1:Jg5/sOI1MJzw6u2J1qA3Nu6JvdHE1ulquzMn/sscg2Y=
