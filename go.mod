@@ -15,7 +15,6 @@ require (
 	github.com/tidwall/match v0.0.0-20160830173930-173748da739a // indirect
 	github.com/tidwall/sjson v1.0.0
 	github.com/twinj/uuid v0.0.0-20151029044442-89173bcdda19
-	github.com/vtrifonov/http-api-mock v1.0.1 // indirect
 	golang.org/x/net v0.0.0-20161215194249-45e771701b81
 	golang.org/x/sys v0.0.0-20161214190518-d75a52659825 // indirect
 	gopkg.in/mgo.v2 v2.0.0-20160818020120-3f83fa500528
