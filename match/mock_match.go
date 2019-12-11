@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/arrim/http-api-mock/definition"
 	urlmatcher "github.com/azer/url-router"
+	"github.com/kolesa-team/http-api-mock/definition"
 	"github.com/ryanuber/go-glob"
 )
 

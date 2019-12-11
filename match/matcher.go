@@ -1,7 +1,7 @@
 package match
 
 import (
-	"github.com/arrim/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/definition"
 )
 
 //Matcher checks if the received request matches with some specific mock request definition.

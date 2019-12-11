@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arrim/http-api-mock/definition"
-	"github.com/arrim/http-api-mock/logging"
-	"github.com/arrim/http-api-mock/vars/fakedata"
+	"github.com/kolesa-team/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/vars/fakedata"
 )
 
 var errMissingParameterValue = errors.New("The requested method needs input parameters which are not supplied!")

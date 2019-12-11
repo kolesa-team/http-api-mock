@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/arrim/http-api-mock/definition"
-	"github.com/arrim/http-api-mock/utils"
 	urlmatcher "github.com/azer/url-router"
+	"github.com/kolesa-team/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/utils"
 )
 
 type RequestVarsFiller struct {

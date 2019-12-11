@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/arrim/http-api-mock/logging"
 	"github.com/ghodss/yaml"
+	"github.com/kolesa-team/http-api-mock/logging"
 )
 
 //YAMLReader struct created to read yaml config files

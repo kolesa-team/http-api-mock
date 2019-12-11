@@ -3,7 +3,7 @@ package match
 import (
 	"testing"
 
-	"github.com/arrim/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/definition"
 )
 
 func TestMatchMethod(t *testing.T) {

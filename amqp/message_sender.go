@@ -3,8 +3,8 @@ package amqp
 import (
 	"time"
 
-	"github.com/arrim/http-api-mock/definition"
-	"github.com/arrim/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/logging"
 	"github.com/streadway/amqp"
 )
 

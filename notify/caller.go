@@ -1,6 +1,6 @@
 package notify
 
-import "github.com/arrim/http-api-mock/definition"
+import "github.com/kolesa-team/http-api-mock/definition"
 
 //Caller makes remote http requests
 type Caller interface {

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/arrim/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/logging"
 )
 
 //JSONReader struct created to read json config files

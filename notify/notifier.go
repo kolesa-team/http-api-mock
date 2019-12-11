@@ -1,6 +1,6 @@
 package notify
 
-import "github.com/arrim/http-api-mock/definition"
+import "github.com/kolesa-team/http-api-mock/definition"
 
 //Notifier notifies the needed parties
 type Notifier interface {

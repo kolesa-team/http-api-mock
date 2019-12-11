@@ -1,7 +1,7 @@
 package route
 
 import (
-	"github.com/arrim/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/definition"
 )
 
 //Router contains the functions to check the http request and return the matching mock.

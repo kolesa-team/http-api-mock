@@ -3,7 +3,7 @@ package translate
 import (
 	"net/http"
 
-	"github.com/arrim/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/definition"
 )
 
 //MockRequestBuilder defines the translator from http.Request to definition.Request

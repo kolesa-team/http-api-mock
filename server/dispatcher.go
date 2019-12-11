@@ -9,13 +9,13 @@ import (
 
 	"reflect"
 
-	"github.com/arrim/http-api-mock/definition"
-	"github.com/arrim/http-api-mock/logging"
-	"github.com/arrim/http-api-mock/notify"
-	"github.com/arrim/http-api-mock/proxy"
-	"github.com/arrim/http-api-mock/route"
-	"github.com/arrim/http-api-mock/translate"
-	"github.com/arrim/http-api-mock/vars"
+	"github.com/kolesa-team/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/notify"
+	"github.com/kolesa-team/http-api-mock/proxy"
+	"github.com/kolesa-team/http-api-mock/route"
+	"github.com/kolesa-team/http-api-mock/translate"
+	"github.com/kolesa-team/http-api-mock/vars"
 )
 
 //Dispatcher is the mock http server

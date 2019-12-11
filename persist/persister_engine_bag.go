@@ -3,7 +3,7 @@ package persist
 import (
 	"strings"
 
-	"github.com/arrim/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/logging"
 )
 
 type PersistEngineBag struct {

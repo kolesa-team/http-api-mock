@@ -1,8 +1,8 @@
 package notify
 
 import (
-	"github.com/arrim/http-api-mock/amqp"
-	"github.com/arrim/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/amqp"
+	"github.com/kolesa-team/http-api-mock/definition"
 )
 
 //MockNotifier notifies the needed parties

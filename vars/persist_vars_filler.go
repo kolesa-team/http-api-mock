@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arrim/http-api-mock/definition"
-	"github.com/arrim/http-api-mock/logging"
-	"github.com/arrim/http-api-mock/persist"
-	"github.com/arrim/http-api-mock/utils"
+	"github.com/kolesa-team/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/persist"
+	"github.com/kolesa-team/http-api-mock/utils"
 )
 
 type PersistVarsFiller struct {

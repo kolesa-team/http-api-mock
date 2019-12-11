@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/arrim/http-api-mock/logging"
 	"github.com/fsnotify/fsnotify"
+	"github.com/kolesa-team/http-api-mock/logging"
 )
 
 //ErrNotFoundPath error from missing or configuration path

@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/arrim/http-api-mock/definition"
-	"github.com/arrim/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/logging"
 )
 
 // Proxy calls to real service

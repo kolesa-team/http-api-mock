@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arrim/http-api-mock/logging"
-	"github.com/arrim/http-api-mock/utils"
+	"github.com/kolesa-team/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/utils"
 	"github.com/ryanuber/go-glob"
 )
 

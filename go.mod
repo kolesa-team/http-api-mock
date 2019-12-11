@@ -1,4 +1,4 @@
-module github.com/arrim/http-api-mock
+module github.com/kolesa-team/http-api-mock
 
 go 1.13
 

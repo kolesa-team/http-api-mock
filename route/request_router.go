@@ -5,9 +5,9 @@ import (
 	"encoding/gob"
 	"sync"
 
-	"github.com/arrim/http-api-mock/definition"
-	"github.com/arrim/http-api-mock/logging"
-	"github.com/arrim/http-api-mock/match"
+	"github.com/kolesa-team/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/logging"
+	"github.com/kolesa-team/http-api-mock/match"
 )
 
 //NewRouter returns a pointer to new RequestRouter

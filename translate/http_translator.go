@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/arrim/http-api-mock/definition"
+	"github.com/kolesa-team/http-api-mock/definition"
 )
 
 //HTTPTranslator is and adaptor beteewn the http and mock definition.
