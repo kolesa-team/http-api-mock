@@ -5,3 +5,4 @@ data/*
 /vendor
 coverage.out
 http-api-mock
+.vscode
