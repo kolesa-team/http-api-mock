@@ -3,20 +3,24 @@ module github.com/kolesa-team/http-api-mock
 go 1.13
 
 require (
-	github.com/Jeffail/gabs v1.0.0
+	github.com/Jeffail/gabs v1.4.0
 	github.com/azer/url-router v0.0.0-20140924232216-1a0aa252538c
-	github.com/elazarl/go-bindata-assetfs v0.0.0-20160822204401-9a6736ed45b4
-	github.com/fsnotify/fsnotify v1.4.2
-	github.com/ghodss/yaml v0.0.0-20161207003320-04f313413ffd
-	github.com/icrowley/fake v0.0.0-20141223214152-84bff6d01560
-	github.com/ryanuber/go-glob v0.0.0-20160226084822-572520ed46db
-	github.com/streadway/amqp v0.0.0-20161224082040-63795daa9a44
-	github.com/tidwall/gjson v0.0.0-20161216162241-e3f249f4fdf3 // indirect
-	github.com/tidwall/match v0.0.0-20160830173930-173748da739a // indirect
-	github.com/tidwall/sjson v1.0.0
-	github.com/twinj/uuid v0.0.0-20151029044442-89173bcdda19
-	golang.org/x/net v0.0.0-20161215194249-45e771701b81
-	golang.org/x/sys v0.0.0-20161214190518-d75a52659825 // indirect
-	gopkg.in/mgo.v2 v2.0.0-20160818020120-3f83fa500528
-	gopkg.in/yaml.v2 v2.0.0-20160928153709-a5b47d31c556 // indirect
+	github.com/corpix/uarand v0.1.1 // indirect
+	github.com/elazarl/go-bindata-assetfs v1.0.0
+	github.com/fsnotify/fsnotify v1.4.7
+	github.com/ghodss/yaml v1.0.0
+	github.com/icrowley/fake v0.0.0-20180203215853-4178557ae428
+	github.com/kr/pretty v0.1.0 // indirect
+	github.com/myesui/uuid v1.0.0 // indirect
+	github.com/ryanuber/go-glob v1.0.0
+	github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271
+	github.com/tidwall/gjson v1.3.5 // indirect
+	github.com/tidwall/sjson v1.0.4
+	github.com/twinj/uuid v1.0.0
+	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553
+	golang.org/x/sys v0.0.0-20191210023423-ac6580df4449 // indirect
+	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
+	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
+	gopkg.in/stretchr/testify.v1 v1.2.2 // indirect
+	gopkg.in/yaml.v2 v2.2.7 // indirect
 )
