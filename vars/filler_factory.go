@@ -12,6 +12,7 @@ type FillerFactory interface {
 	CreateFakeFiller(Fake fakedata.DataFaker) Filler
 	CreateStorageFiller(Engines *persist.PersistEngineBag) Filler
 	CreatePersistFiller(Engines *persist.PersistEngineBag) Filler
+	CreateDynamicVarsFiller(Engines *persist.PersistEngineBag) Filler
 }
 
 type MockFillerFactory struct{}
@@ -30,4 +31,8 @@ func (mff MockFillerFactory) CreateStorageFiller(engines *persist.PersistEngineB
 
 func (mff MockFillerFactory) CreatePersistFiller(engines *persist.PersistEngineBag) Filler {
 	return PersistVarsFiller{Engines: engines, RegexHelper: utils.RegexHelper{}}
+}
+
+func (mff MockFillerFactory) CreateDynamicVarsFiller(engines *persist.PersistEngineBag) Filler {
+	return DynamicVarsFiller{Engines: engines, RegexHelper: utils.RegexHelper{}}
 }

@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/Jeffail/gabs v1.4.0
+	github.com/Knetic/govaluate v3.0.0+incompatible
 	github.com/azer/url-router v0.0.0-20140924232216-1a0aa252538c
 	github.com/corpix/uarand v0.1.1 // indirect
 	github.com/elazarl/go-bindata-assetfs v1.0.0

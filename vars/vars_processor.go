@@ -17,6 +17,7 @@ func (fp VarsProcessor) Eval(req *definition.Request, m *definition.Mock) {
 	fakeFiller := fp.FillerFactory.CreateFakeFiller(fp.FakeAdapter)
 	storageFiller := fp.FillerFactory.CreateStorageFiller(fp.PersistEngines)
 	persistFiller := fp.FillerFactory.CreatePersistFiller(fp.PersistEngines)
+	dynamicVarsFiller := fp.FillerFactory.CreateDynamicVarsFiller(fp.PersistEngines)
 	entityActions := persist.EntityActions{fp.PersistEngines}
 
 	fp.walkAndFill(requestFiller, m, true)
@@ -25,6 +26,9 @@ func (fp VarsProcessor) Eval(req *definition.Request, m *definition.Mock) {
 
 	// we need to make sure the persisted vars are filled before executing the actions - as we need to make sure the persist vars are replaced in the persist actions
 	fp.walkAndFillPersisted(persistFiller, m)
+
+	// handle possible dynamic values
+	fp.walkAndFill(dynamicVarsFiller, m, true)
 
 	entityActions.ApplyActions(m)
 
