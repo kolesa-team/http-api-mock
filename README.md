@@ -289,6 +289,7 @@ Request data:
  - storage.Sequence(name, increaseWith) - generates next sequence with a given name, useful when auto generating id, if no increaseWith is passed or increaseWith = 0 the sequence won't be increased but the latest value will be returned
  - storage.SetValue(key, value) - stores a value corresponding to a given key and returns the value. This is useful if you have some entities requested by both id and name, so that you can store the mapping between than and later retrieve it. You can check the samples in [storage](config/persistence/storage/) folder
  - storage.GetValue(key) - returns the value corresponding to the given key
+ - dynamic.Calc(expression) - returns the result of a mathematical or logical expression
 
 > Regex: The regex should contain a group named **value** which will be matched and its value will be returned. E.g. if we want to match the id from this url **`/your/path/4`** the regex should look like **`/your/path/(?P<value>\\d+)`**. Note that in *golang* the named regex group match need to contain a **P** symbol after the question mark. The regex should be prefixed either with **request.url.**, **request.body.** or **response.body.** considering your input. When setting the Persist.Collection field the regex can match multiple records from it's input, which is useful for cases like [users-delete-passingids.json](config/persistence/users-delete-passingids.json)
 
