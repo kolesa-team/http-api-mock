@@ -22,13 +22,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="text/JavaScript">
 	$( document ).ready(function() {
-		  var ws = new WebSocket("ws://" + location.host + "/echo");
+		  var wsProtocol = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
+		  var ws = new WebSocket(wsProtocol + location.host + "/echo");
 		  ws.onmessage = function(e) {
 		  	  var message = JSON.parse(event.data);
 		  	  logRequest(message);		      
 		  };
 
-			var ws = new WebSocket("ws://" + location.host + "/log");
+			var ws = new WebSocket(wsProtocol + location.host + "/log");
 		  ws.onmessage = function(e) {
 					var message = JSON.parse(event.data);
 		  	  writeLog(message);		      
