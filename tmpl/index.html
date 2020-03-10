@@ -25,13 +25,13 @@
 		  var wsProtocol = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
 		  var ws = new WebSocket(wsProtocol + location.host + "/echo");
 		  ws.onmessage = function(e) {
-		  	  var message = JSON.parse(event.data);
+		  	  var message = JSON.parse(e.data);
 		  	  logRequest(message);		      
 		  };
 
 			var ws = new WebSocket(wsProtocol + location.host + "/log");
 		  ws.onmessage = function(e) {
-					var message = JSON.parse(event.data);
+					var message = JSON.parse(e.data);
 		  	  writeLog(message);		      
 		  };
 	});
