@@ -369,6 +369,14 @@ You can check the sample configurations for persistence in the following files:
 
 That configurations are going to work either with [File system](#file-system) or [MongoDB](#mongodb) modes.
 
+### Updating template files
+
+Do the following steps to apply any modifications in `tmpl` directory:
+ 
+* Install `go-bindata`: `go get -u github.com/go-bindata/go-bindata/...`
+* Run `go-bindata -o console/bindata.go tmpl/...`
+* Replace package name `main` with `console` in `console/bindata.go`
+
 ### Contributing
 
 Clone this repository to ```$GOPATH/src/github.com/kolesa-team/http-api-mock``` and type ```go get .```.
